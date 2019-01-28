@@ -7,10 +7,6 @@ public class Cliente {
 	private String endereco;
 	private static int matricula = 0;
 	
-	
-	
-	
-	
 	public Cliente(String nome, String dataNascimento, String cpf,
 			String endereco) {
 			super();
