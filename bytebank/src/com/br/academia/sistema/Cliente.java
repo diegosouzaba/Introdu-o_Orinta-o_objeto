@@ -5,6 +5,7 @@ public class Cliente {
 	private String dataNascimento;
 	private String cpf;
 	private String endereco;
+	private Planos tipo;
 	private static int matricula = 0;
 	
 	public Cliente(String nome, String dataNascimento, String cpf,
@@ -47,5 +48,13 @@ public class Cliente {
 	public void setMatricula(int matricula) {
 		this.matricula = matricula;
 	}
+	
+	@Override
+	public String toString() {
+		return "Cliente [nome=" + nome + ", dataNascimento=" + dataNascimento
+				+ ", cpf=" + cpf + ", endereco=" + endereco + "]";
+	}
+	
+	
 
 }
